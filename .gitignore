@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+screenshots/
+reports/
+login_error_message.png
+login_page.png
