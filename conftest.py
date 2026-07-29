@@ -2,7 +2,7 @@ import pytest
 import os
 from selenium import webdriver
 from config.config import BASE_URL
-from utils.DriverFactorey import DriverFactory
+from utils.DriverFactory import DriverFactory
 
 
 
