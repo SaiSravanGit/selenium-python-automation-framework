@@ -17,7 +17,8 @@ def test_login(driver,username,password,expected_result):
     dashboard_page = login_page.login(username,password)
     
     if expected_result == 'valid':
-        assert dashboard_page.is_dashboard_displayed()
+        #assert dashboard_page.is_dashboard_displayed()
+        assert False
     elif expected_result == 'invalid':
         assert login_page.is_login_error_displayed()
     
