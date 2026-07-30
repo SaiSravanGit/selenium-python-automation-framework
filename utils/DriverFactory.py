@@ -13,6 +13,8 @@ class DriverFactory:
         if HEADLESS:
             options.add_argument("--headless=new")
             options.add_argument("--windowsize=1920,1080")
+            options.add_argument("--no-sandbox")
+            options.add_argument("--disable-dev-shm-usage")
         else:
             options.add_argument("--startmaximized")
             
