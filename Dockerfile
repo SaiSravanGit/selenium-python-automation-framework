@@ -1,4 +1,4 @@
-FROM selenium/standalone-chrome:latest
+'''FROM selenium/standalone-chrome:latest
 
 USER root
 
@@ -15,3 +15,6 @@ RUN pip3 install --break-system-packages --no-cache-dir -r requirements.txt
 COPY . .
 
 CMD ["pytest", "-v", "--html=reports/report.html", "--self-contained-html"]
+'''
+
+RUN mkdir -p reports screenshots
